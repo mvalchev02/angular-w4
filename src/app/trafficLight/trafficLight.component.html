@@ -1,0 +1,7 @@
+<div class="traffic-light">
+    <div class="light red" [class.active]="redLight"></div>
+    <div class="light yellow" [class.active]="yellowLight"></div>
+    <div class="light green" [class.active]="greenLight"></div>
+  </div>
+  <button [disabled]="isCrossingDisabled" (click)="onCross()">Пресичане</button>
+  
